@@ -10,8 +10,8 @@ function App() {
 const [data, setData]=useState([]);
 const [search, setSearch]=useState('');
 const [querry, setQuery]=useState(foodItems[radomNo]);
-  const id ="997aff65";
-  const key = "d78f7f68da39a7ab85ab56338f16fdbb";
+  const id =[YOUR_ADAMAM_ID_HERE];
+  const key = [YOUR_ADAMAM_KEY_HERE];
   const Link = `https://api.edamam.com/search?q=${querry}&app_id=${id}&app_key=${key}`;
 
 useEffect(()=>{
